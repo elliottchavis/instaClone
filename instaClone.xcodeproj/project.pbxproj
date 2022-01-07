@@ -21,6 +21,7 @@
 		29FF71892787F70400795AB5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF71882787F70400795AB5 /* Extensions.swift */; };
 		29FF718C2788259E00795AB5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF718B2788259E00795AB5 /* LoginController.swift */; };
 		29FF718F278825B100795AB5 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF718E278825B100795AB5 /* RegistrationController.swift */; };
+		29FF71922788E77500795AB5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF71912788E77500795AB5 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		29FF71882787F70400795AB5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		29FF718B2788259E00795AB5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		29FF718E278825B100795AB5 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		29FF71912788E77500795AB5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				29FF71852787F50600795AB5 /* FeedCell.swift */,
+				29FF71912788E77500795AB5 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FF71922788E77500795AB5 /* CustomTextField.swift in Sources */,
 				29FF718C2788259E00795AB5 /* LoginController.swift in Sources */,
 				299A02F627879A0C00672CAB /* AppDelegate.swift in Sources */,
 				299A031D2787A2BE00672CAB /* SearchController.swift in Sources */,
