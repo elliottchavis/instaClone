@@ -88,7 +88,7 @@ class RegistrationController: UIViewController {
                 return
             }
             
-            print("debug: successfully registered user ")
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
@@ -149,7 +149,6 @@ class RegistrationController: UIViewController {
         fullnameTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
         usernameTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
        
-
     }
 }
 
