@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0CC14F111739ECA997F1CC60 /* Pods_instaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC39865A7D0BDBA075584F88 /* Pods_instaClone.framework */; };
+		2940A9D427B4298200BAE463 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D327B4298200BAE463 /* ProfileCell.swift */; };
+		2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D627B4299E00BAE463 /* ProfileHeader.swift */; };
 		298ADA6427976AEA001222A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298ADA6327976AEA001222A7 /* GoogleService-Info.plist */; };
 		299A02F627879A0C00672CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A02F527879A0C00672CAB /* AppDelegate.swift */; };
 		299A02F827879A0C00672CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A02F727879A0C00672CAB /* SceneDelegate.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2940A9D327B4298200BAE463 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		2940A9D627B4299E00BAE463 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		298ADA6327976AEA001222A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		299A02F227879A0C00672CAB /* instaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299A02F527879A0C00672CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2940A9D927B429B500BAE463 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2940A9D327B4298200BAE463 /* ProfileCell.swift */,
+				2940A9D627B4299E00BAE463 /* ProfileHeader.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		299A02E927879A0C00672CAB = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +161,7 @@
 		299A031127879B4A00672CAB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2940A9D927B429B500BAE463 /* Profile */,
 				29FF71852787F50600795AB5 /* FeedCell.swift */,
 				29FF71912788E77500795AB5 /* CustomTextField.swift */,
 			);
@@ -292,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2940A9D427B4298200BAE463 /* ProfileCell.swift in Sources */,
 				29FF71922788E77500795AB5 /* CustomTextField.swift in Sources */,
 				29FF718C2788259E00795AB5 /* LoginController.swift in Sources */,
 				29EA25CE279D300600AA81F1 /* ImageUploader.swift in Sources */,
@@ -299,6 +314,7 @@
 				299A02F627879A0C00672CAB /* AppDelegate.swift in Sources */,
 				299A031D2787A2BE00672CAB /* SearchController.swift in Sources */,
 				299A031527879CA000672CAB /* MainTabController.swift in Sources */,
+				2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */,
 				299A03232787A2DF00672CAB /* NotificationController.swift in Sources */,
 				299A02F827879A0C00672CAB /* SceneDelegate.swift in Sources */,
 				29FF71892787F70400795AB5 /* Extensions.swift in Sources */,
