@@ -13,6 +13,7 @@
 		294FEFED27B9AC1E00364BFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFEC27B9AC1E00364BFC /* Constants.swift */; };
 		294FEFF027B9ACBA00364BFC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFEF27B9ACBA00364BFC /* UserService.swift */; };
 		294FEFF327B9AEEA00364BFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFF227B9AEEA00364BFC /* User.swift */; };
+		294FEFF627B9C21E00364BFC /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFF527B9C21E00364BFC /* ProfileHeaderViewModel.swift */; };
 		298ADA6427976AEA001222A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298ADA6327976AEA001222A7 /* GoogleService-Info.plist */; };
 		299A02F627879A0C00672CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A02F527879A0C00672CAB /* AppDelegate.swift */; };
 		299A02F827879A0C00672CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A02F727879A0C00672CAB /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 		294FEFEC27B9AC1E00364BFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		294FEFEF27B9ACBA00364BFC /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		294FEFF227B9AEEA00364BFC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		294FEFF527B9C21E00364BFC /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		298ADA6327976AEA001222A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		299A02F227879A0C00672CAB /* instaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299A02F527879A0C00672CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				29FF7194278A72E400795AB5 /* AuthenticationViewModel.swift */,
+				294FEFF527B9C21E00364BFC /* ProfileHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				294FEFF027B9ACBA00364BFC /* UserService.swift in Sources */,
 				29FF718F278825B100795AB5 /* RegistrationController.swift in Sources */,
 				29FF71862787F50600795AB5 /* FeedCell.swift in Sources */,
+				294FEFF627B9C21E00364BFC /* ProfileHeaderViewModel.swift in Sources */,
 				29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */,
 				294FEFF327B9AEEA00364BFC /* User.swift in Sources */,
 			);
