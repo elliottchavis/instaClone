@@ -10,6 +10,7 @@
 		0CC14F111739ECA997F1CC60 /* Pods_instaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC39865A7D0BDBA075584F88 /* Pods_instaClone.framework */; };
 		2940A9D427B4298200BAE463 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D327B4298200BAE463 /* ProfileCell.swift */; };
 		2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D627B4299E00BAE463 /* ProfileHeader.swift */; };
+		294F0C2C27BA3BF900BC862C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F0C2B27BA3BF900BC862C /* UserCell.swift */; };
 		294FEFED27B9AC1E00364BFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFEC27B9AC1E00364BFC /* Constants.swift */; };
 		294FEFF027B9ACBA00364BFC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFEF27B9ACBA00364BFC /* UserService.swift */; };
 		294FEFF327B9AEEA00364BFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FEFF227B9AEEA00364BFC /* User.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		2940A9D327B4298200BAE463 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		2940A9D627B4299E00BAE463 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		294F0C2B27BA3BF900BC862C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		294FEFEC27B9AC1E00364BFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		294FEFEF27B9ACBA00364BFC /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		294FEFF227B9AEEA00364BFC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				2940A9D927B429B500BAE463 /* Profile */,
 				29FF71852787F50600795AB5 /* FeedCell.swift */,
 				29FF71912788E77500795AB5 /* CustomTextField.swift */,
+				294F0C2B27BA3BF900BC862C /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				299A031527879CA000672CAB /* MainTabController.swift in Sources */,
 				2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */,
 				299A03232787A2DF00672CAB /* NotificationController.swift in Sources */,
+				294F0C2C27BA3BF900BC862C /* UserCell.swift in Sources */,
 				299A02F827879A0C00672CAB /* SceneDelegate.swift in Sources */,
 				29FF71892787F70400795AB5 /* Extensions.swift in Sources */,
 				299A03202787A2D100672CAB /* ImageSelectorController.swift in Sources */,
