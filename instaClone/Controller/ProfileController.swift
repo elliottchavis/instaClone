@@ -31,6 +31,7 @@ class ProfileController: UICollectionViewController {
         super.viewDidLoad()
         configureCollectionView()
         checkIfUserIsFollowed()
+        fetchUserStats()
         
     }
     
@@ -41,7 +42,15 @@ class ProfileController: UICollectionViewController {
             self.user.isFollowed = isFollowed
             self.collectionView.reloadData()
         }
-        
+    }
+    
+    func fetchUserStats() {
+        UserService.fetchUserStats(uid: user.uid) { stats in
+            self.user.stats = stats
+            self.collectionView.reloadData()
+            
+            print("DEBUG: Stats \(stats)")
+        }
     }
     
     
