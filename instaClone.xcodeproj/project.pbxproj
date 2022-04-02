@@ -30,6 +30,7 @@
 		299ECCE127F7317100554721 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299ECCE027F7317100554721 /* PostService.swift */; };
 		299F3A8D27BD984600FEF1A0 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F3A8C27BD984600FEF1A0 /* UserCellViewModel.swift */; };
 		29A3037127F7C7AF00E2EDFB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3037027F7C7AF00E2EDFB /* Post.swift */; };
+		29A3037427F7D68500E2EDFB /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A3037327F7D68500E2EDFB /* PostViewModel.swift */; };
 		29EA25CE279D300600AA81F1 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25CD279D300600AA81F1 /* ImageUploader.swift */; };
 		29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25D0279D301C00AA81F1 /* AuthService.swift */; };
 		29ED30B52787D0E700D72974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ED30B42787D0E600D72974 /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		299ECCE027F7317100554721 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		299F3A8C27BD984600FEF1A0 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		29A3037027F7C7AF00E2EDFB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		29A3037327F7D68500E2EDFB /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		29EA25CD279D300600AA81F1 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		29EA25D0279D301C00AA81F1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		29ED30B42787D0E600D72974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				29FF7194278A72E400795AB5 /* AuthenticationViewModel.swift */,
+				29A3037327F7D68500E2EDFB /* PostViewModel.swift */,
 				294FEFF527B9C21E00364BFC /* ProfileHeaderViewModel.swift */,
 				299F3A8C27BD984600FEF1A0 /* UserCellViewModel.swift */,
 			);
@@ -360,6 +363,7 @@
 				294FEFF027B9ACBA00364BFC /* UserService.swift in Sources */,
 				29FF718F278825B100795AB5 /* RegistrationController.swift in Sources */,
 				29FF71862787F50600795AB5 /* FeedCell.swift in Sources */,
+				29A3037427F7D68500E2EDFB /* PostViewModel.swift in Sources */,
 				294FEFF627B9C21E00364BFC /* ProfileHeaderViewModel.swift in Sources */,
 				29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */,
 				290029AF27F67D57006B72E9 /* InputTextView.swift in Sources */,
