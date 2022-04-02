@@ -29,8 +29,6 @@ struct User {
         self.uid = dictionary["uid"] as? String ?? ""
         
         self.stats = UserStats(followers: 0, following: 0)
-
-        
     }
 }
 
