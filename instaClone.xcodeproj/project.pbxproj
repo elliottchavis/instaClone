@@ -10,6 +10,8 @@
 		0CC14F111739ECA997F1CC60 /* Pods_instaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC39865A7D0BDBA075584F88 /* Pods_instaClone.framework */; };
 		290029AC27F676A2006B72E9 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290029AB27F676A2006B72E9 /* UploadPostController.swift */; };
 		290029AF27F67D57006B72E9 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290029AE27F67D57006B72E9 /* InputTextView.swift */; };
+		292167D227F9EA0C0008EA4D /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292167D127F9EA0C0008EA4D /* CommentController.swift */; };
+		292167D527F9EC920008EA4D /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292167D427F9EC920008EA4D /* CommentCell.swift */; };
 		2940A9D427B4298200BAE463 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D327B4298200BAE463 /* ProfileCell.swift */; };
 		2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940A9D627B4299E00BAE463 /* ProfileHeader.swift */; };
 		294F0C2C27BA3BF900BC862C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F0C2B27BA3BF900BC862C /* UserCell.swift */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		290029AB27F676A2006B72E9 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
 		290029AE27F67D57006B72E9 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		292167D127F9EA0C0008EA4D /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		292167D427F9EC920008EA4D /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2940A9D327B4298200BAE463 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		2940A9D627B4299E00BAE463 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		294F0C2B27BA3BF900BC862C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				299A031427879CA000672CAB /* MainTabController.swift */,
+				292167D127F9EA0C0008EA4D /* CommentController.swift */,
 				290029AB27F676A2006B72E9 /* UploadPostController.swift */,
 				299A03192787A2A600672CAB /* FeedController.swift */,
 				299A031C2787A2BE00672CAB /* SearchController.swift */,
@@ -194,6 +199,7 @@
 				2940A9D927B429B500BAE463 /* Profile */,
 				29FF71852787F50600795AB5 /* FeedCell.swift */,
 				29FF71912788E77500795AB5 /* CustomTextField.swift */,
+				292167D427F9EC920008EA4D /* CommentCell.swift */,
 				294F0C2B27BA3BF900BC862C /* UserCell.swift */,
 			);
 			path = View;
@@ -350,6 +356,7 @@
 				299A02F627879A0C00672CAB /* AppDelegate.swift in Sources */,
 				299A031D2787A2BE00672CAB /* SearchController.swift in Sources */,
 				299A031527879CA000672CAB /* MainTabController.swift in Sources */,
+				292167D227F9EA0C0008EA4D /* CommentController.swift in Sources */,
 				2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */,
 				299A03232787A2DF00672CAB /* NotificationController.swift in Sources */,
 				294F0C2C27BA3BF900BC862C /* UserCell.swift in Sources */,
@@ -365,6 +372,7 @@
 				29FF71862787F50600795AB5 /* FeedCell.swift in Sources */,
 				29A3037427F7D68500E2EDFB /* PostViewModel.swift in Sources */,
 				294FEFF627B9C21E00364BFC /* ProfileHeaderViewModel.swift in Sources */,
+				292167D527F9EC920008EA4D /* CommentCell.swift in Sources */,
 				29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */,
 				290029AF27F67D57006B72E9 /* InputTextView.swift in Sources */,
 				294FEFF327B9AEEA00364BFC /* User.swift in Sources */,
