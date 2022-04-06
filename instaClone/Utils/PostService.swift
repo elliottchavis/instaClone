@@ -32,6 +32,8 @@ struct PostService {
             let posts = documents.map({ Post(postId: $0.documentID, dictionary: $0.data())})
             completion(posts)
             
+            print("DEBUG: THE POSTS ARE.......\(posts)")
+            
         }
     }
     
@@ -43,7 +45,7 @@ struct PostService {
         query.getDocuments { (snapshot, error) in
             guard let documents = snapshot?.documents else { return }
             
-            var posts = documents.map({ Post(postId: $0.documentID, dictionary: $0.data())})
+            var posts = documents.map({ Post(postId: $0.documentID, dictionary: $0.data()) })
             posts.sort { (post1, post2) -> Bool in
                 return post1.timestamp.seconds  > post2.timestamp.seconds
             }
