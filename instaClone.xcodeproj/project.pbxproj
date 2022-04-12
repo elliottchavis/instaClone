@@ -40,6 +40,7 @@
 		29D76DF927FF8B54002DCDB3 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76DF827FF8B54002DCDB3 /* NotificationCell.swift */; };
 		29D76DFC28051497002DCDB3 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76DFB28051497002DCDB3 /* Notification.swift */; };
 		29D76DFF28051C45002DCDB3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76DFE28051C45002DCDB3 /* NotificationService.swift */; };
+		29D76E02280536AA002DCDB3 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76E01280536AA002DCDB3 /* NotificationViewModel.swift */; };
 		29EA25CE279D300600AA81F1 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25CD279D300600AA81F1 /* ImageUploader.swift */; };
 		29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25D0279D301C00AA81F1 /* AuthService.swift */; };
 		29ED30B52787D0E700D72974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ED30B42787D0E600D72974 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		29D76DF827FF8B54002DCDB3 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		29D76DFB28051497002DCDB3 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		29D76DFE28051C45002DCDB3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		29D76E01280536AA002DCDB3 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		29EA25CD279D300600AA81F1 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		29EA25D0279D301C00AA81F1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		29ED30B42787D0E600D72974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				29FF7194278A72E400795AB5 /* AuthenticationViewModel.swift */,
+				29D76E01280536AA002DCDB3 /* NotificationViewModel.swift */,
 				29A3037327F7D68500E2EDFB /* PostViewModel.swift */,
 				294FEFF527B9C21E00364BFC /* ProfileHeaderViewModel.swift */,
 				299F3A8C27BD984600FEF1A0 /* UserCellViewModel.swift */,
@@ -368,6 +371,7 @@
 			files = (
 				2940A9D427B4298200BAE463 /* ProfileCell.swift in Sources */,
 				294FEFED27B9AC1E00364BFC /* Constants.swift in Sources */,
+				29D76E02280536AA002DCDB3 /* NotificationViewModel.swift in Sources */,
 				290029AC27F676A2006B72E9 /* UploadPostController.swift in Sources */,
 				29FF71922788E77500795AB5 /* CustomTextField.swift in Sources */,
 				29D76DED27FCAAFB002DCDB3 /* CommentInputAccessoryView.swift in Sources */,

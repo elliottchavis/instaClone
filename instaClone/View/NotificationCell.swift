@@ -11,6 +11,10 @@ class NotificationCell: UITableViewCell {
     
     // MARK: - Properties
     
+    var viewModel: NotificationViewModel? {
+        didSet { configure() }
+    }
+    
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.image = #imageLiteral(resourceName: "venom-7")
@@ -92,5 +96,13 @@ class NotificationCell: UITableViewCell {
     
     @objc func handlePostTapped() {
         
+    }
+    
+    // MARK: - Helper
+    
+    func configure() {
+        guard let viewModel = viewModel else { return }
+        
+        profileImageView.sd_setImage(with: viewModel.profileImageUrl)
     }
 }
