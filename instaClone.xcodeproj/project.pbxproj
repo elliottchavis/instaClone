@@ -41,6 +41,7 @@
 		29D76DFC28051497002DCDB3 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76DFB28051497002DCDB3 /* Notification.swift */; };
 		29D76DFF28051C45002DCDB3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76DFE28051C45002DCDB3 /* NotificationService.swift */; };
 		29D76E02280536AA002DCDB3 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76E01280536AA002DCDB3 /* NotificationViewModel.swift */; };
+		29D76E05280825F7002DCDB3 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D76E04280825F7002DCDB3 /* ResetPasswordController.swift */; };
 		29EA25CE279D300600AA81F1 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25CD279D300600AA81F1 /* ImageUploader.swift */; };
 		29EA25D1279D301C00AA81F1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA25D0279D301C00AA81F1 /* AuthService.swift */; };
 		29ED30B52787D0E700D72974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ED30B42787D0E600D72974 /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 		29D76DFB28051497002DCDB3 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		29D76DFE28051C45002DCDB3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		29D76E01280536AA002DCDB3 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		29D76E04280825F7002DCDB3 /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
 		29EA25CD279D300600AA81F1 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		29EA25D0279D301C00AA81F1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		29ED30B42787D0E600D72974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				299A031427879CA000672CAB /* MainTabController.swift */,
+				29D76E04280825F7002DCDB3 /* ResetPasswordController.swift */,
 				292167D127F9EA0C0008EA4D /* CommentController.swift */,
 				290029AB27F676A2006B72E9 /* UploadPostController.swift */,
 				299A03192787A2A600672CAB /* FeedController.swift */,
@@ -387,6 +390,7 @@
 				2940A9D727B4299E00BAE463 /* ProfileHeader.swift in Sources */,
 				299A03232787A2DF00672CAB /* NotificationController.swift in Sources */,
 				294F0C2C27BA3BF900BC862C /* UserCell.swift in Sources */,
+				29D76E05280825F7002DCDB3 /* ResetPasswordController.swift in Sources */,
 				29D76DFC28051497002DCDB3 /* Notification.swift in Sources */,
 				299A02F827879A0C00672CAB /* SceneDelegate.swift in Sources */,
 				29FF71892787F70400795AB5 /* Extensions.swift in Sources */,
