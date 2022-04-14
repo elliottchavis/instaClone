@@ -135,7 +135,7 @@ extension NotificationController: NotificationCellDelegate {
 
         PostService.fetchPost(withPostId: postId) { post in
             self.showLoader(false)
-
+  
             let controller = FeedController(collectionViewLayout: UICollectionViewFlowLayout())
             controller.post = post
             self.navigationController?.pushViewController(controller, animated: true)
@@ -143,3 +143,5 @@ extension NotificationController: NotificationCellDelegate {
     }
     
 }
+
+// Stephan's course will have cloud functions, amazing
